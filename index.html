@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Celina Soares">
+  <link rel="stylesheet" href="link rel="preconnect href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">">
+  <link rel="stylesheet" href="estilocss.css">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <title>:: Portifolio ::</title>
+</head>
+<body>
+
+  <header class="header">
+    <img src="WhatsApp Image 2023-09-13 at 21.23.04 (1).jpeg" alt="" class="header_logo">
+    
+    <span id= "hamburguer" class="material-symbols-outlined">
+      menu
+      </span>
+    <nav id="itens_menu" class="header_nav">
+      <ul>
+        <li><a href="#sobre_mim" target="_self">Sobre mim</a></li>
+        <li><a href="#jornada" target="_self">Jornada</a></li>
+        <li><a href="#desafio" target="_self">Desafios</a></li>
+        <li><a href="#conquista" target="_self">Conquistas</a></li>
+        <li><a href="#aprendizado" target="_self">Aprendizado</a></li>
+        <li><a href="#projeto" target="_self">Projeto</a></li>
+        <li><a href="#depoimento" target="_self">Depoimento</a></li>
+        <li><a href="#contatos" target="_self">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <script>
+    var hamburguer = document.getElementById('hamburguer');
+    var itens_menu = document.getElementById('itens_menu');
+
+    hamburguer.addEventListener('click', aparecer);
+
+    function aparecer(){
+      if(itens_menu.style.display == 'block'){
+        itens_menu.classList.remove('show');
+      }else{
+        itens_menu.classList.toggle('show');
+      }
+    }
+  </script>
+
+  <main>
+    <h1 class="nav"> Sobre mim </h1>
+    <section id="sobre_mim" class="fundo_hero">        
+        <div>    
+          <img src="Sobre mim Post Instagram.png" alt="">
+        </div>
+    </section>
+
+    <section class="fundo">
+      <section id="jornada" class="jornada">
+        <header>
+          <h2 class="box">Jornada</h2>
+        </header>           
+        <p class="p_jornada">Durante a pandemia resolvi voltar a estudar. Pesquisei muito sobre a Tecnologia da Informação e todas as possibilidades e novidades. Como sempre atuei na área administrativa e comercial, de incio foquei no Curso de Ciencia de Dados.
+         Certo dia navegando pelo Linkedin vi uma publicaçao sobre o Elas na Tech e o curso de Desenvolvimento Web. Resolvi me inscrever. Fácil não foi, mas o desafio de aprender coisas novas me motiva.</p></div>
+      </section>
+
+
+
+      <section id="desafio" class="desafio">
+        <header>
+         <h2 class="box">Desafios</h2>
+        </header>
+          <p class="p_desafio">Muitos desafios durante esses 5 meses. Vontade de desistir aconteceu, não dá pra mentir mas nas aulas de terça-feira isso rapidamente era esquecido. Durante esse período tive que conciliar a Faculdade de Ciência de Dados, o Elas na Tech e a Certifição de Analista de Dados do Google, além de ser empresária e esposa. Pra mim o mais dificil foi conciliar o tempo sem que isso pudesse trazer prejuizos psicologicos e fisicos. Mas no fim deu certo e estou muito feliz por estar concluindo mais uma etapa da minha vida</p>
+      </section>
+
+      <section id="conquista"   class="conquista">
+        <header>
+         <h2 class="box">Conquistas</h2>
+        </header>
+          <p class="p_conquista">Aos poucos vou realizando, um passo de cada vez e a minha maior conquista é concluir tudo o que me propus a fazer nesse período de tempo de tantas mudanças</p>
+      </section>
+
+      <section id="aprendizado"     class="aprendizado">
+        <header>
+          <h2 class="box">Aprendizado</h2>
+        </header>
+        <p class="p_aprendizado">Com Elas na tech desenvolvi novas Hard Skills:
+        <li>Conhecimento em HTML e CSS</li>
+        <li>JavaScrip</li>
+        <li>Bootstrap</li>
+        <li>Lógica de programação e Python</li>
+        <li>Git/GitHub</li>
+        </p>
+      </section>
+    </section>
+
+    <section id="projeto"    class="portifolio">
+      <h2>Portifolio</h2>
+      <div class="maxWidht row">
+        <article class="col col-12 col-6">
+          <img src="WhatsApp Image 2023-09-23 at 12.35.29.jpeg" alt="" class="icon_img">
+          <h2>Margin/Padding</h2>
+          <p>Primeiro desafio semanal....</p>          
+         <a href="#"> Saiba mais</a>       
+        </article>
+      
+      
+        <article class="col col-12 col-6">
+          <img src="WhatsApp Image 2023-09-23 at 12.32.53.jpeg" alt="" class="icon_img">
+          <h2>Lindo de Bonito</h2>
+          <p>Segundo desafio semanal....</p>          
+         <a href="#"> Saiba mais</a>       
+        </article>
+
+        <article class="col col-12 col-6">
+          <img src="WhatsApp Image 2023-09-23 at 12.31.37.jpeg" alt="" class="icon_img">
+          <h2>Diário de Férias</h2>
+          <p>Terceiro desafio semanal....</p>          
+         <a href="#"> Saiba mais</a>       
+        </article>
+
+        <article class="col col-12 col-6">
+          <img src="WhatsApp Image 2023-09-23 at 12.26.35.jpeg" alt="" class="icon_img">
+          <h2>Conheça Minas Gerais</h2>
+          <p>Quarto desafio semanal....</p>          
+         <a href="#"> Saiba mais</a>       
+        </article>
+
+        <article class="col col-12 col-6">
+          <img src="WhatsApp Image 2023-09-23 at 12.24.47.jpeg" alt="" class="icon_img">
+          <h2>Emoji o Filme</h2>
+          <p>Quinto desafio semanal....</p>          
+         <a href="#"> Saiba mais</a>       
+        </article>
+
+        <article class="col col-12 col-6">
+          <img src="WhatsApp Image 2023-09-23 at 12.22.56.jpeg" alt="" class="icon_img">
+          <h2>JavaScrip</h2>
+          <p>Sexto desafio semanal....</p>          
+         <a href="#"> Saiba mais</a>       
+        </article>
+
+        <article class="col col-12 col-6">
+          <img src="WhatsApp Image 2023-09-23 at 12.18.55.jpeg" alt="" class="icon_img">
+          <h2>Calculadora</h2>
+          <p>Sétimo desafio semanal....</p>          
+         <a href="#"> Saiba mais</a>       
+        </article>
+
+        <article class="col col-12 col-6">
+          <img src="WhatsApp Image 2023-09-23 at 12.16.37.jpeg" alt="" class="icon_img">
+          <h2>Tartaruga Ninja</h2>
+          <p>Oitavo desafio semanal....</p>          
+         <a href="#"> Saiba mais</a>       
+        </article>
+
+        <article class="col col-12 col-6">
+          <img src="WhatsApp Image 2023-09-23 at 12.13.57.jpeg" alt="" class="icon_img">
+          <h2>Gatos</h2>
+          <p>Nono desafio semanal....</p>          
+         <a href="#"> Saiba mais</a>       
+        </article>
+      </div> 
+    </section>
+
+    <section  id="depoimento"      class="depoimento">
+      <h1>Depoimento</h1>  
+    </section>   
+    
+        
+
+
+  </main>
+
+  <footer>
+    <section id="contatos">
+    <p> Celina Soares - Desenvolvedor Web</p>
+    <div class="logos_footer">
+      <div><a href="#"><img src="linkedin.png" alt class="tamanho"></a></div>
+      <div><a href="#"><img src="github.png" alt class="tamanho"></a></div>
+      <div><a href="#"><img src="whatsapp.png" alt class="tamanho"></a></div>
+    </div>
+   </section>
+  </footer>
+
+</body>
+</html>
